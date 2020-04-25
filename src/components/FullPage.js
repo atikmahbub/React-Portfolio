@@ -5,6 +5,7 @@ import About from './About'
 import Service from '../components/Service'
 import Intro from '../components/Intro'
 import Experience from '../components/Experience'
+import Portfolio from '../components/Portfolio'
 
 function FullPage() {
     return (
@@ -23,6 +24,9 @@ function FullPage() {
             </div>
             <div className="experience-container">
                 <Experience/>
+            </div>
+            <div className="portfolio-container">
+                <Portfolio/>
             </div>
         </div>
     )
