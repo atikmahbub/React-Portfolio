@@ -3,6 +3,7 @@ import '../assets/css/experience.css'
 import WorkIcon from '@material-ui/icons/Work';
 import TimerIcon from '@material-ui/icons/Timer';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import TouchAppIcon from '@material-ui/icons/TouchApp';
 
 function Experience() {
     return (
@@ -16,6 +17,10 @@ function Experience() {
                     <div className="job-title-item">
                     <WorkIcon style={{fontSize : "30px" , color : "#ff4a57"}}/>
                     <h3> Think Bricks LLC</h3>
+                    </div>
+                    <div className="job-title-item">
+                    <TouchAppIcon style={{fontSize : "30px" , color : "#ff4a57"}}/>
+                    <h3> Software Developer</h3>
                     </div>
                     <div className="job-title-item">
                     <TimerIcon style={{fontSize : "30px" , color : "#ff4a57"}}/>

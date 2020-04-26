@@ -1,0 +1,94 @@
+.skill-section{
+   background: rgb(39, 43, 68);
+   padding: 50px;
+}
+
+.skill-title{
+    margin-top: 3%;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-title hr{
+    border: 2px solid red;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.skill-title div:nth-child(1){
+    color: #ff4a57;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.skill-title div:nth-child(2){
+    color: #fff;
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.skill-content-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.skill-content-header{
+    width: 30%;
+    font-size: 1.3rem;
+    color: #dfdfdf;
+    align-items: center;
+    flex: 1;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.skill-content-item{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+.skill-item-card{
+    width: 90px;
+    height: 90px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    border:2px solid #ff4a57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.skill-item-card:hover{
+    background-color: #ff4a57;
+    transition: .5s linear;
+    cursor: pointer;
+}
+
+.skill-content-header:hover{
+    color: #ff4a57;
+    transition: .5s linear;
+    cursor: pointer;
+}

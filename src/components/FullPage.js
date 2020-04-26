@@ -6,6 +6,9 @@ import Service from '../components/Service'
 import Intro from '../components/Intro'
 import Experience from '../components/Experience'
 import Portfolio from '../components/Portfolio'
+import Skill from '../components/Skill'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 function FullPage() {
     return (
@@ -27,6 +30,15 @@ function FullPage() {
             </div>
             <div className="portfolio-container">
                 <Portfolio/>
+            </div>
+            <div className="skill-container">
+                <Skill/>
+            </div>
+            <div className="contact-container">
+                <Contact/>
+            </div>
+            <div className="footer-container">
+                <Footer/>
             </div>
         </div>
     )
