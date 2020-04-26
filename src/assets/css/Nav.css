@@ -1,16 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:display=swap');
  
- body
- {
-   margin: 0;
-   padding: 0;
-   background: #1F2235;
-   width: 100% !important;
-   overflow-x: hidden;
-   color: #cdcdcd;
-   font-family: "Fira Sans","Lato",Arial,sans-serif;
- }
+
  
  #menuToggle
  {
@@ -127,6 +118,7 @@
    transform: translate(-100%, 0);
    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
  }
+
  
  #menu li
  {
