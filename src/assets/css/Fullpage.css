@@ -1,0 +1,10 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #1F2235;
+  width: 100% !important;
+  overflow-x: hidden;
+  color: #cdcdcd;
+  font-family: "Fira Sans","Lato",Arial,sans-serif;
+}

@@ -2,6 +2,16 @@ import React from 'react'
 import '../assets/css/Nav.css'
 
 function Nav() {
+
+    const [navigate , setNavigate] = React.useState(false)
+    const handleNavigate =(navigate) =>{
+        let offsetTop  = document.getElementById(`${navigate}`).offsetTop;
+        window.scrollTo({
+            top: offsetTop-100, 
+            behavior: "smooth"
+        });
+        setNavigate(true)
+    }
     return (
         <div>
             <nav role="navigation" className="navigation">
@@ -10,11 +20,14 @@ function Nav() {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <ul id="menu">
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Info</li></a>
-                    <a href="#"><li>Contact</li></a>
+                    <ul id="menu" >
+                    <a href="#"><li onClick={ () => handleNavigate("about")}>Home</li></a>
+                    <a href="#"><li onClick={ () => handleNavigate("service")}>Services</li></a>
+                    <a href="#"><li onClick={ () => handleNavigate("intro")}>About</li></a>
+                    <a href="#"><li onClick={ () => handleNavigate("experience")}>Experience</li></a>
+                    <a href="#"><li onClick={ () => handleNavigate("portfolio")}>Portfolio</li></a>
+                    <a href="#"><li onClick={ () => handleNavigate("skill")}>Skills</li></a>
+                    <a href="#"><li onClick={ () => handleNavigate("contact")}>Contact</li></a>
                     </ul>
                 </div>
             </nav>   

@@ -16,25 +16,25 @@ function FullPage() {
             <div>
                 <Nav/>
             </div>
-            <div className="first-section">
+            <div className="about-section" id="about" >
                 <About/>
             </div>
-            <div className="service-container">
+            <div className="service-container" id="service">
                 <Service/>
             </div>
-            <div className="intro-container">
+            <div className="intro-container" id="intro">
                 <Intro/>
             </div>
-            <div className="experience-container">
+            <div className="experience-container" id="experience">
                 <Experience/>
             </div>
-            <div className="portfolio-container">
+            <div className="portfolio-container" id="portfolio">
                 <Portfolio/>
             </div>
-            <div className="skill-container">
+            <div className="skill-container" id="skill">
                 <Skill/>
             </div>
-            <div className="contact-container">
+            <div className="contact-container" id="contact">
                 <Contact/>
             </div>
             <div className="footer-container">
