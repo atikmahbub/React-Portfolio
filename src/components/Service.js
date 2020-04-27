@@ -7,14 +7,18 @@ import SettingsSystemDaydreamIcon from '@material-ui/icons/SettingsSystemDaydrea
 import GraphicEqIcon from '@material-ui/icons/GraphicEq';
 import NoteIcon from '@material-ui/icons/Note';
 import ExploreIcon from '@material-ui/icons/Explore';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function Service() {
     return (
         <div className="service-section-min">
             <div className="service-title">
+                <ScrollAnimation animateIn="bounce" animateOnce={true}>
                 My Services
+                </ScrollAnimation>
                 <hr/>
             </div>
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
             <div className="service-content">
                 <Paper elevation={3} className="service-item1">
                     <div className="service-item-icon">
@@ -100,6 +104,7 @@ function Service() {
                     </div>
                 </Paper>
             </div>
+            </ScrollAnimation>
         </div>
     )
 }

@@ -9,10 +9,36 @@ import Portfolio from '../components/Portfolio'
 import Skill from '../components/Skill'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import FlightIcon from '@material-ui/icons/Flight';
+import "animate.css/animate.min.css";
+
 
 function FullPage() {
+
+    const fullref = React.useRef()
+    const [navigate , setNavigate] = React.useState(false)
+
+    React.useEffect(() =>{
+        document.addEventListener("scroll", function(e) {
+            let offsetTop = fullref.current.getBoundingClientRect().top
+            if(offsetTop < -900){
+                setNavigate(true)
+            }
+            else{
+                setNavigate(false)
+            }
+          });
+    },[])
+
+    const handlenavigate = () =>
+    {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+    }
     return (
-        <div>
+        <div ref={fullref}>
             <div>
                 <Nav/>
             </div>
@@ -40,6 +66,9 @@ function FullPage() {
             <div className="footer-container">
                 <Footer/>
             </div>
+            <div className={ !navigate ? "top-nav" : "top-nav top-nav-show"} onClick = {handlenavigate} >
+                <FlightIcon style={{fontSize : "30px" , color : "#ff4a57"}}/>
+            </div> 
         </div>
     )
 }

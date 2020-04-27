@@ -8,18 +8,21 @@ import voice from '../assets/Images/voice.jpeg'
 import retina from '../assets/Images/retina.png'
 import blog from '../assets/Images/blog.png'
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function Portfolio() {
     return (
         <div className="portfolio-section">
             <div className="portfolio-title">
+            <ScrollAnimation animateIn="bounce" animateOnce={true}>
                 My Portfolio
+            </ScrollAnimation>
                 <hr/>
             </div>
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
             <div className="portfolio-content">
                 <div className="portfolio-card-container">
                     <Paper elevation={2} className="portfolio-card">
-
                         <img src ={covid} width="100%"  height ="280px" className="portfolio-image"/>
                         <div className="portfolio-card-header">Covid-19 Dashboard</div>
                         <div className="portfolio-card-desc">A real time covid 19 update application with some great feature's</div>
@@ -78,6 +81,7 @@ function Portfolio() {
                     </Paper>
                 </div>
             </div>
+            </ScrollAnimation>
         </div>
     )
 }

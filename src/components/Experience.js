@@ -4,30 +4,35 @@ import WorkIcon from '@material-ui/icons/Work';
 import TimerIcon from '@material-ui/icons/Timer';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import TouchAppIcon from '@material-ui/icons/TouchApp';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function Experience() {
     return (
         <div className="experience-section">
             <div className="experience-title">
+            <ScrollAnimation animateIn="bounce" animateOnce={true}>
                 Experience
+            </ScrollAnimation>
                 <hr/>
             </div>
+            
             <div className="experience-content">
                 <div className="job-title">
-                    <div className="job-title-item">
+                    <ScrollAnimation className="job-title-item" animateIn="fadeInLeft" animateOnce={true}>
                     <WorkIcon style={{fontSize : "30px" , color : "#ff4a57"}}/>
                     <h3> Think Bricks LLC</h3>
-                    </div>
-                    <div className="job-title-item">
+                    </ScrollAnimation>
+                    <ScrollAnimation className="job-title-item" animateIn="fadeInLeft" animateOnce={true} delay={500}>
                     <TouchAppIcon style={{fontSize : "30px" , color : "#ff4a57"}}/>
                     <h3> Software Developer</h3>
-                    </div>
-                    <div className="job-title-item">
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} delay={1000} className="job-title-item">
                     <TimerIcon style={{fontSize : "30px" , color : "#ff4a57"}}/>
                     <h3>October 2019 - Present</h3>
-                    </div>
+                    </ScrollAnimation>
                 </div>
                 <div className="job-desc">
+                <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
                     <div className="job-desc-item">
                         <CheckCircleIcon style={{fontSize : "25px" , color : "#ff4a57"}}/>
                         <p>
@@ -52,6 +57,7 @@ function Experience() {
                         etc
                         </p>
                     </div>
+                    </ScrollAnimation>
                 </div>
             </div>
         </div>

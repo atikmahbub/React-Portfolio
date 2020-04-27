@@ -1,22 +1,23 @@
 import React from 'react'
 import '../assets/css/Nav.css'
 
+
 function Nav() {
 
-    const [navigate , setNavigate] = React.useState(false)
     const handleNavigate =(navigate) =>{
         let offsetTop  = document.getElementById(`${navigate}`).offsetTop;
+        console.log(offsetTop)
         window.scrollTo({
             top: offsetTop-100, 
             behavior: "smooth"
         });
-        setNavigate(true)
+        document.getElementById("closeIcon").checked = false
     }
     return (
-        <div>
-            <nav role="navigation" className="navigation">
+        <div className="navigation">
+            <nav role="navigation" >
                 <div id="menuToggle">
-                    <input type="checkbox" />
+                    <input type="checkbox" id="closeIcon" />
                     <span></span>
                     <span></span>
                     <span></span>
@@ -30,7 +31,7 @@ function Nav() {
                     <a href="#"><li onClick={ () => handleNavigate("contact")}>Contact</li></a>
                     </ul>
                 </div>
-            </nav>   
+            </nav>  
         </div>
     )
 }
