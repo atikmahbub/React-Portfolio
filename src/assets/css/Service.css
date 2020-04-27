@@ -13,6 +13,7 @@
     font-weight: 900;
     color: #fff;
     letter-spacing: 1.5px;
+    cursor: pointer;
 }
 
 .service-title hr{
@@ -37,6 +38,7 @@
     flex-direction: column;
     transition: .5s;
     padding: 30px;
+    cursor: pointer;
 }
 
 .service-item-title{

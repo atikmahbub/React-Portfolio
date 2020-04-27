@@ -4,6 +4,7 @@ import Typist from 'react-typist';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function About() {
     return (
@@ -30,15 +31,15 @@ function About() {
             </div>
 
             <div className="social-link">
-                <div className= "linked-in" >
+                <ScrollAnimation className= "linked-in" animateIn="zoomIn" >
                     <LinkedInIcon style={{fontSize : "30px" , color : "#fff"}} />
-                </div>
-                <div>
+                </ScrollAnimation>
+                <ScrollAnimation className= "linked-in" animateIn="zoomIn" delay={500}>
                     <GitHubIcon style={{fontSize : "30px", color : "#fff"}}/>
-                </div>
-                <div>
+                </ScrollAnimation>
+                <ScrollAnimation className= "linked-in" animateIn="zoomIn" delay={1000}>
                     <TwitterIcon style={{fontSize : "30px", color : "#fff"}}/>
-                </div>
+                </ScrollAnimation>
             </div>
         </div>
     )

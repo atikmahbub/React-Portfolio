@@ -8,3 +8,17 @@ body
   color: #cdcdcd;
   font-family: "Fira Sans","Lato",Arial,sans-serif;
 }
+
+
+.top-nav{
+  position: fixed;
+  bottom: 40px;
+  right: 8px;
+  display: none;
+  cursor: pointer;
+}
+
+
+.top-nav-show{
+  display: block;
+}
