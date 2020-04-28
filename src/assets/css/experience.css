@@ -71,3 +71,38 @@
 .job-desc-item p{
     margin-left: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    .experience-content{
+        flex-direction: column !important;
+    }
+    .job-title{
+        width: 100%;
+        margin-top: -20px !important;
+        
+    }
+    .job-title-item{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .job-desc-item{
+        margin-top: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .job-title-item h3{
+        font-size: .8rem;
+    }
+    .job-desc-item p{
+        font-size: .7rem;
+    }
+    .experience-title{
+        font-size: 1.4rem;
+    }
+  }

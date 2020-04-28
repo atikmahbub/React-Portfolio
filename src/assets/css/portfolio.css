@@ -101,3 +101,31 @@
 .portfolio-image{
     border-radius: 6px;
 }
+
+@media only screen and (max-width: 768px) {
+    .portfolio-card-container{
+        flex-direction: column;
+    }
+    .portfolio-card{
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .portfolio-title{
+        font-size: 1.4rem;
+    }  
+    .portfolio-card-header{
+        font-size: 1rem;
+    }
+    .portfolio-card-desc{
+        font-size: .8rem;
+    }
+  }

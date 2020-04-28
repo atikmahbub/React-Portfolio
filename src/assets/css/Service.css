@@ -78,3 +78,97 @@
 .service-item-icon{
     color: #ff4a57;
 }
+
+@media only screen and (max-width: 768px) {
+    .service-content{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-item1 , .service-item2 , .service-item3{
+        width: 70%;
+        margin-bottom: 10px;
+        height: 23vh;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .service-item-title{
+        font-size: .9rem;
+    }
+    .service-item-desc{
+        font-size: .7rem;
+        padding:5px
+    }
+    .service-item1 , .service-item2 , .service-item3{
+        width: 23%;
+    }
+    .service-title{
+        font-size: 1.4rem;
+    }
+  }
+
+  @media only screen 
+and (min-device-width: 1024px) 
+and (max-device-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)  
+and (orientation: portrait) {
+    .service-item1 , .service-item2 , .service-item3{
+        height: 18vh;
+    }
+}
+
+@media only screen 
+  and (width: 320px) 
+  and (height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .service-item-title{
+        font-size: .9rem;
+    }
+    .service-item-desc{
+        font-size: .7rem;
+        padding:5px
+    }
+    .service-item1 , .service-item2 , .service-item3{
+        width: 70%;
+    }
+    .service-title{
+        font-size: 1.4rem;
+    }
+  }
+
+  /* Iphone 5 landscape */
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .service-item-title{
+        font-size: .9rem;
+    }
+    .service-item-desc{
+        font-size: .7rem;
+        padding:5px
+    }
+  }
+
+
+  /* Iphone 6 landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+    .service-item-title{
+        font-size: .9rem;
+    }
+    .service-item-desc{
+        font-size: .7rem;
+        padding:5px
+    }
+}

@@ -5,6 +5,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .about-name-title{
@@ -88,7 +89,7 @@
     display: inline-block;
     background: #1F2235;
     cursor: pointer;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .social-link > div:nth-child(2) {
@@ -107,4 +108,144 @@
 @keyframes run {
     0%   { top: -50%}
     100% {top: 110%}
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about-section{
+        height: 55vh;
+    }
+    .about-name-title{
+        font-size: 2rem;
+    }
+    .about-name-desc{
+        font-size: 1.3rem;
+        padding: 20px;
+    }
+    .line{
+        height: 55vh;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .about-name-title{
+        font-size: 2rem;
+    }
+    .about-name-desc{
+        font-size: 1.3rem;
+        padding: 20px;
+    }
+    .line{
+        top: calc(18vh);
+    }
+}
+
+/* Ipad pro portrait */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)  
+and (orientation: portrait) {
+    .line{
+        top: calc(7vh);
+    }
+    .about-section{
+        height: 40vh;
+    }
+    .line{
+        height: 40vh;
+    }
+    
+}
+
+/* ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    .line{
+        top: calc(9vh);
+    }
+}
+
+/* Ipad Pro Landscape */
+@media only screen 
+and (min-device-width: 1366px) 
+and (max-device-height: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2)  
+and (orientation: landscape)  {
+    .line{
+        top: calc(9vh);
+    }
+}
+
+
+/* Iphone 5 */
+@media only screen 
+  and (width: 320px) 
+  and (height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .line{
+        top: calc(15vh);
+        height: 70vh;
+    }
+    .about-section{
+        height: 70vh;
+    }
+    .about-name-title{
+        font-size: 1.4rem;
+    }
+    .about-name-desc{
+        font-size: 1rem;
+        padding: 20px;
+    }
+}
+
+/* Iphone 5 landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .about-section{
+        height: 120vh;
+    }
+    .line{
+        top: calc(25vh);
+        height: 120vh;
+    }
+    .about-name-title{
+        font-size: 1.4rem;
+    }
+    .about-name-desc{
+        font-size: 1rem;
+        padding: 20px;
+    }
+}
+
+/* Iphone 6 landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .about-section{
+        height: 80vh;
+    }
+    .line{
+        top: calc(23vh);
+        height: 80vh;
+    }
+    .about-name-title{
+        font-size: 1.4rem;
+    }
+    .about-name-desc{
+        font-size: 1rem;
+        padding: 20px;
+    }
 }
