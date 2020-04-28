@@ -22,16 +22,25 @@ function Intro() {
                     <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
                     <h2>Hi There</h2>
                     <p>
-                    From my childhood, I've had a passion for technologies.
+                        <em>
+                    "From my childhood, I've had a passion for technologies.
                     After higher school certificate, I got an opportunity to admit in Computer Science & Engineering what I was looking for.
                     I completed graduation in Computer Science & Engineering from East West University in early 2019.
                     As a Computer Science student, I am always keen to learn new technologies, solving complex problems, design, etc.
+                    </em>
                     </p>
                     <p>
+                    <em>
                     In my leisure time, I love to play guitar, watch videos on youtube, play video games and travel whenever I can.
+                    </em>
                     </p>
-                    <p>I always love to meet new people and learn new things.Feel free to contact me</p>
-                    <div className="intro-lower">
+                    
+                    <p>
+                        <em>
+                        I always love to meet new people and learn new things.Feel free to contact me"
+                        </em>
+                    </p>
+                    {/* <div className="intro-lower">
                         <div className="intro-lower-content">
                             <div>Name</div>
                             <div>Atik Mahbub</div>
@@ -40,7 +49,7 @@ function Intro() {
                             <div>Email</div>
                             <div>atikmahbub100@gmail.com</div>
                         </div>
-                    </div>
+                    </div> */}
                     </ScrollAnimation>
                 </div>
             </div>

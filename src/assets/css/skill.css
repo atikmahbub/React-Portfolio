@@ -58,9 +58,9 @@
 }
 
 .skill-content-item{
-    width: 50%;
     display: flex;
     justify-content: center;
+    /* flex-wrap: wrap; */
     align-items: center;
     width: 100%;
     flex: 1;
@@ -94,3 +94,84 @@
     transition: .5s linear;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .skill-content{
+        flex-direction: column;
+    }
+    .skill-content-header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .skill-content-item{
+        flex-wrap: wrap;
+    }
+    .skill-item-card{
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .skill-content-item{
+        flex-wrap: wrap;
+    }
+    .skill-item-card{
+        margin-bottom: 15px;
+    }
+    .skill-title div:nth-child(1){
+        font-size: .8rem;
+    }
+    .skill-title div:nth-child(2){
+        font-size: 1rem;
+    }
+  }
+
+  /* ipad pro*/
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)  
+and (orientation: portrait) {
+    .skill-content-item{
+        flex-wrap: wrap;
+    }
+    .skill-item-card{
+        margin-bottom: 15px;
+    }
+    .skill-section{
+        padding: 30px !important;
+    }
+}
+
+/* ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+    .skill-content-item{
+        flex-wrap: wrap;
+    }
+    .skill-item-card{
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .skill-content-header{
+        font-size: 1rem;
+    }
+  }

@@ -38,10 +38,11 @@
 
 .intro-desc p {
     text-align: justify;
+    font-size: 1.1rem;
     /* color: #fff; */
 }
 
-.intro-lower{
+/* .intro-lower{
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
@@ -65,4 +66,55 @@
     margin-top: 5px;
     font-size: 1.1rem;
     font-weight: 400;
+} */
+
+@media only screen and (max-width: 768px) {
+    .intro-content{
+        flex-direction: column;
+    }
+    .intro-image img{
+        margin-left: 2%;
+    }
+    .intro-image{
+        width: 100%;
+    }
+    .intro-desc{
+        width: 100%;
+        margin-top: 10px;
+    }
 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .intro-desc p{
+        font-size: .8rem;
+        padding: 10px
+    }
+    .intro-desc h2{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .intro-title{
+        font-size: 1.4rem;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .intro-desc p{
+        font-size: .8rem;
+        padding: 10px
+    }
+    .intro-desc h2{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .intro-image img{
+        margin-left: -35px !important;
+    }
+  }

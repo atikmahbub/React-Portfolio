@@ -63,3 +63,50 @@
     transition: .3s linear;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .contact-content{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-content-item{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .contact-section{
+        padding : 30px
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .contact-title div:nth-child(1){
+        font-size: .8rem;
+    }
+    .contact-title div:nth-child(2){
+        font-size: 1.2rem;
+    }
+    .contact-item span{
+        font-size: 1rem;
+    }
+    .contact-content{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-content-item{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .contact-section{
+        padding : 20px
+    }
+  }
+  

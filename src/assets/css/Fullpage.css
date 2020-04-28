@@ -4,7 +4,7 @@ body
   padding: 0;
   background: #1F2235;
   width: 100% !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   color: #cdcdcd;
   font-family: "Fira Sans","Lato",Arial,sans-serif;
 }
@@ -22,3 +22,64 @@ body
 .top-nav-show{
   display: block;
 }
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .top-nav{
+    right: 48px;
+  }
+}
+
+/* mobile landcape */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 850px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .top-nav{
+      right: 78px;
+    }
+  }
+
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)  
+and (orientation: portrait) {
+  .top-nav{
+    right: 60px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 1366px) 
+and (max-device-height: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2)  
+and (orientation: landscape)  {
+  .top-nav{
+    right: 65px;
+  }
+}
+
+/* Ipad Landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+  .top-nav{
+    right: 60px;
+  }
+}
+
+  /* Iphone 6 landscape */
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .top-nav{
+      right: 55px;
+    }
+  }
