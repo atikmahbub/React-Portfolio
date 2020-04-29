@@ -213,3 +213,10 @@ and (orientation : portrait) {
       height: 20vh;
   }
 }
+@media only screen and (min-device-height: 10px) 
+                   and (max-device-height: 530px) 
+                   and (orientation: landscape) {
+                    .navigation{
+                      height: 16vh;
+                  }
+}
