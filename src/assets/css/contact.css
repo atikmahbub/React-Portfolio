@@ -110,3 +110,20 @@
     }
   }
   
+
+  @media only screen and (min-device-height: 10px) 
+                   and (max-device-height: 530px) 
+                   and (orientation: landscape) {
+                    .contact-title div:nth-child(1){
+                        font-size: .8rem;
+                    }
+                    .contact-title div:nth-child(2){
+                        font-size: 1.2rem;
+                    }
+                    .contact-item span{
+                        font-size: 1rem;
+                    }
+                    .contact-section{
+                        padding : 0px
+                    }
+                   }
