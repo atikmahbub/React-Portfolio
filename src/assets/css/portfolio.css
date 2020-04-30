@@ -102,6 +102,95 @@
     border-radius: 6px;
 }
 
+.modal-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+
+}
+
+.modal-one-header{
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.modal-one-header:hover{
+    color: #ff4a57 !important;
+    transition: .5s linear;
+}
+.modal-one-content-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px
+}
+
+.modal-one-content-item div:nth-child(2){
+    margin-left: 7px;
+}
+
+.modal-one-content{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.portfolio-live-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 80%;
+    background: rgb(39, 43, 68) !important;
+    color: #fff !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    border: 2px solid #ff4a57;
+}
+
+.portfolio-live-link a:hover{
+    color: #ff4a57;
+    transform: .5s linear;
+    cursor: pointer;
+}
+
+
+.portfolio-live-link a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.Modal {
+    position: absolute;
+    width: 50%;
+    max-height: 80vh;
+    overflow: scroll;
+    top : 50%;
+    left : 50% ;
+    transform : translate(-50%, -50%);
+    background: rgb(39, 43, 68) !important;
+    border: none !important;
+    border-radius: 5px;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color :  rgba(255, 255, 255, 0.75);
+  }
+
+
 @media only screen and (max-width: 768px) {
     .portfolio-card-container{
         flex-direction: column;
@@ -111,6 +200,9 @@
         display: block;
         margin: auto;
         margin-bottom: 20px;
+    }
+    .Modal {
+        width: 90%;
     }
 }
 
@@ -128,4 +220,15 @@
     .portfolio-card-desc{
         font-size: .8rem;
     }
+    .Modal {
+        width: 90%;
+    }
   }
+
+  @media only screen and (min-device-height: 10px) 
+                   and (max-device-height: 530px) 
+                   and (orientation: landscape) {
+                    .Modal {
+                        width: 90%;
+                    }
+}
