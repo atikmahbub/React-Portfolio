@@ -136,6 +136,12 @@
     height: 12vh;
  }
 
+ @media only screen and (max-width: 768px) {
+  .navigation{
+    height: 10vh;
+ }
+ }
+
  @media only screen 
  and (min-device-width: 375px) 
  and (max-device-width: 850px) 
@@ -217,6 +223,6 @@ and (orientation : portrait) {
                    and (max-device-height: 530px) 
                    and (orientation: landscape) {
                     .navigation{
-                      height: 16vh;
+                      height: 16vh !important;
                   }
 }

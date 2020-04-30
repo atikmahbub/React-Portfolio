@@ -111,6 +111,8 @@
 }
 
 
+
+
 @media only screen and (max-width: 768px) {
     .about-section{
         height: 55vh;
@@ -124,7 +126,8 @@
     }
     .line{
         height: 55vh;
-    }
+        top: calc(10vh);
+    }    
 }
 
 @media only screen 
