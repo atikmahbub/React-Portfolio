@@ -37,7 +37,7 @@ function About() {
                 <ScrollAnimation className= "linked-in" animateIn="zoomIn" delay={500}>
                     <GitHubIcon style={{fontSize : "30px", color : "#fff"}}/>
                 </ScrollAnimation>
-                <ScrollAnimation className= "linked-in" animateIn="zoomIn" delay={1000}>
+                <ScrollAnimation className= "linked-in" animateIn="zoomIn" delay={500}>
                     <TwitterIcon style={{fontSize : "30px", color : "#fff"}}/>
                 </ScrollAnimation>
             </div>
