@@ -134,6 +134,8 @@
 
  .navigation{
     height: 12vh;
+    border-bottom: 1px solid #1F2235;
+    background-color: rgb(39, 43, 68);
  }
 
  @media only screen and (max-width: 768px) {

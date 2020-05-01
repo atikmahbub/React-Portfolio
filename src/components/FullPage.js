@@ -21,7 +21,7 @@ function FullPage() {
     React.useEffect(() =>{
         document.addEventListener("scroll", function(e) {
             let offsetTop = fullref.current.getBoundingClientRect().top
-            if(offsetTop < -900){
+            if(offsetTop < -2000){
                 setNavigate(true)
             }
             else{
@@ -39,7 +39,7 @@ function FullPage() {
     }
     return (
         <div ref={fullref}>
-            <div>
+            <div id="Nav-Bar">
                 <Nav/>
             </div>
             <div className="about-section" id="about" >

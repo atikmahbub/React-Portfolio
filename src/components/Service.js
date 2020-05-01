@@ -28,9 +28,8 @@ function Service() {
                     </div>
                     <div className="service-item-title">Frontend Development</div>
                     <div className="service-item-desc">
-                        Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s
+                        Full Functional application with state management, decrease loading time
+                        ,handle any asynchronus call & responsive design is my highest priority.
                     </div>
                 </Paper>
 
@@ -42,9 +41,8 @@ function Service() {
                     </div>
                     <div className="service-item-title">Backend Development</div>
                     <div className="service-item-desc">
-                        Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s
+                        Dynamic application with multiple type user role, permission for all type of user's,
+                        handle security loophole,Database normalization to prevent redundancy are strong preference.
                     </div>
                 </Paper>
                 <Paper elevation={3} className="service-item3">
@@ -55,9 +53,8 @@ function Service() {
                     </div>
                     <div className="service-item-title">App Development</div>
                     <div className="service-item-desc">
-                        Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s
+                        Full stack dynamic application Development with Machine Learning & 
+                        Artificial intelligence Integration if needed.
                     </div>
                 </Paper>
             </div>
@@ -71,9 +68,8 @@ function Service() {
                     </div>
                     <div className="service-item-title">Api Integration</div>
                     <div className="service-item-desc">
-                        Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s
+                    Create API & handle all API data .Using the API layer of two or more applications to make them talk to each other.
+                    
                     </div>
                 </Paper>
 
@@ -85,9 +81,7 @@ function Service() {
                     </div>
                     <div className="service-item-title">Microsoft Azure Service</div>
                     <div className="service-item-desc">
-                        Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s
+                        Dockerize app & run the container with Microsoft Azure Container Service.
                     </div>
                 </Paper>
                 <Paper elevation={3} className="service-item3">
@@ -98,9 +92,8 @@ function Service() {
                     </div>
                     <div className="service-item-title">Wordpress Development</div>
                     <div className="service-item-desc">
-                        Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s
+                        Theme customization for professional site , Develop website from scratch,
+                        Plugin Integration , payment method Integration.
                     </div>
                 </Paper>
             </div>

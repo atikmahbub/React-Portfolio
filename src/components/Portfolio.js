@@ -81,7 +81,7 @@ function Portfolio() {
             <div className="portfolio-content">
                 <div className="portfolio-card-container">
                     <Paper elevation={2} className="portfolio-card">
-                        <img src ={covid} width="100%"  height ="280px" className="portfolio-image"/>
+                        <img src ={covid} alt="portfolio-one" width="100%"  height ="280px" className="portfolio-image"/>
                         <div className="portfolio-card-header">Covid-19 Dashboard</div>
                         <div className="portfolio-card-desc">A real time covid 19 update application with some great feature's</div>
                         <div className="portfolio-card-button-container">
@@ -90,7 +90,7 @@ function Portfolio() {
                         </div>
                     </Paper>
                     <Paper elevation={2} className="portfolio-card">
-                    <img src ={blood} width="100%"  height ="280px" className="portfolio-image"/>
+                    <img src ={blood} alt="portfolio-two" width="100%"  height ="280px" className="portfolio-image"/>
                         <div className="portfolio-card-header">Blood Donor Network</div>
                         <div className="portfolio-card-desc">Professional Blood donating web application with post, comment & notifications feature</div>
                         <div className="portfolio-card-button-container">
@@ -99,7 +99,7 @@ function Portfolio() {
                         </div>
                     </Paper>
                     <Paper elevation={2} className="portfolio-card">
-                    <img src ={data} width="100%"  height ="280px" className="portfolio-image"/>
+                    <img src ={data} alt="portfolio-three" width="100%"  height ="280px" className="portfolio-image"/>
                         <div className="portfolio-card-header">Data Compression App</div>
                         <div className="portfolio-card-desc">Improved Piecewise Constant Approximation Method on Data Streams</div>
                         <div className="portfolio-card-button-container">
@@ -111,7 +111,7 @@ function Portfolio() {
 
                 <div className="portfolio-card-container">
                     <Paper elevation={2} className="portfolio-card">
-                    <img src ={voice} width="100%"  height ="280px" className="portfolio-image"/>
+                    <img src ={voice} alt="portfolio-four" width="100%"  height ="280px" className="portfolio-image"/>
                     <div className="portfolio-card-header">Voice Assistant</div>
                     <div className="portfolio-card-desc">A windows application that can perform tasks for an individual task via voice command</div>
                     <div className="portfolio-card-button-container">
@@ -120,7 +120,7 @@ function Portfolio() {
                     </div>
                     </Paper>
                     <Paper elevation={2} className="portfolio-card">
-                    <img src ={blog} width="100%"  height ="280px" className="portfolio-image"/>
+                    <img src ={blog} alt="portfolio-five" width="100%"  height ="280px" className="portfolio-image"/>
                     <div className="portfolio-card-header">Full Fetaured Blog App</div>
                     <div className="portfolio-card-desc">Django Blog app with multiple type user role & permissions</div>
                     <div className="portfolio-card-button-container">
@@ -129,7 +129,7 @@ function Portfolio() {
                     </div>
                     </Paper>
                     <Paper elevation={2} className="portfolio-card">
-                    <img src ={retina} width="100%"  height ="280px" className="portfolio-image"/>
+                    <img src ={retina} alt="portfolio-six" width="100%"  height ="280px" className="portfolio-image"/>
                     <div className="portfolio-card-header">Smart Retina</div>
                     <div className="portfolio-card-desc">Smart Retina is a screening software, which helps for detecting eye diseases.</div>
                     <div className="portfolio-card-button-container">
@@ -384,7 +384,7 @@ function Portfolio() {
                             </div>
                             <div className="modal-one-content-item">
                                 <DoneAllIcon style={{color: "#ff4a57"}}/>
-                                <div>Different user with permisiion</div>
+                                <div>Different user with different permission</div>
                             </div>
                             <div className="modal-one-content-item">
                                 <DoneAllIcon style={{color: "#ff4a57"}}/>
