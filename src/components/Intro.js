@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/css/intro.css'
-import picture from '../assets/Images/pic.png'
+import profile from '../assets/Images/pic.png'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 function Intro() {
@@ -15,7 +15,7 @@ function Intro() {
             <div className="intro-content">
                 <div className= "intro-image">
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
-                    <img src={picture}/>
+                    <img src={profile} alt="profile"/>
                 </ScrollAnimation>
                 </div>
                 <div className="intro-desc">

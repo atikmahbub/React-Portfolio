@@ -32,13 +32,13 @@ function About() {
 
             <div className="social-link">
                 <ScrollAnimation className= "linked-in" animateIn="zoomIn" >
-                    <LinkedInIcon style={{fontSize : "30px" , color : "#fff"}} />
+                    <a href="https://www.linkedin.com/in/atik-mahbub-0b8428130" target="_BLANK"><LinkedInIcon style={{fontSize : "25px" , color : "#fff"}} /></a>
                 </ScrollAnimation>
                 <ScrollAnimation className= "linked-in" animateIn="zoomIn" delay={500}>
-                    <GitHubIcon style={{fontSize : "30px", color : "#fff"}}/>
+                    <a href="https://github.com/atikmahbub" target="_BLANK"><GitHubIcon style={{fontSize : "25px", color : "#fff"}}/></a>
                 </ScrollAnimation>
                 <ScrollAnimation className= "linked-in" animateIn="zoomIn" delay={500}>
-                    <TwitterIcon style={{fontSize : "30px", color : "#fff"}}/>
+                    <a href="https://twitter.com/atik_m11" target="_BLANK"><TwitterIcon style={{fontSize : "25px", color : "#fff"}}/></a>
                 </ScrollAnimation>
             </div>
         </div>
